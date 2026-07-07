@@ -1,0 +1,1 @@
+$execute as @p[sort=arbitrary,limit=1] at @s positioned ~ ~ ~ rotated as @s run $(run_command_self)

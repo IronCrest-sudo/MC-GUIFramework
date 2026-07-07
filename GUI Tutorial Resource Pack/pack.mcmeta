@@ -1,6 +1,5 @@
 {
     "pack": {
-        "pack_format": 34,
         "description": [
             {
                 "text": "GUI Tutorial",
@@ -12,6 +11,8 @@
                 "color": "aqua",
                 "bold": false
             }
-        ]
+        ],
+        "max_format": [88, 1],
+        "min_format": [88, 1]
     }
 }

@@ -1,15 +1,24 @@
 {
   "pack": {
-    "pack_format": 48,
-    "description": "Test",
-    "supported_formats": [
-      48,
-      94
-    ],
+    "description": [
+            {
+                "text": "GUI Tutorial",
+                "color": "gold",
+                "bold": true
+            },
+            {
+                "text": " by Cloud_Wolf",
+                "color": "aqua",
+                "bold": false
+            }
+        ],
     "min_format": [
-      48,
+      107,
       1
     ],
-    "max_format": 94
+    "max_format": [
+      107,
+      1
+    ]
   }
 }

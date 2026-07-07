@@ -1,5 +1,6 @@
 # remove ui element items from players
 clear @a *[minecraft:custom_data~{ui_item:{}}]
+execute as @p[sort=arbitrary,limit=1] at @s positioned ~ ~ ~ rotated as @s run item replace entity @s player.cursor with minecraft:air
 
 # future proofing, specifies it is a chest minecart
 scoreboard players set .type ui 1
